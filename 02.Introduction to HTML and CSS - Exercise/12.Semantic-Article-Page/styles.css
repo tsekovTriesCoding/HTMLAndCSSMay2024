@@ -1,0 +1,24 @@
+body {
+    background-color: #e4e978;
+}
+
+article {
+    background-color: #f2f4c0;
+    border: 1px solid #b2ad7d;
+    margin: 15px 10px;
+    width: 700px;
+    padding: 5px 15px;
+}
+
+section > article {
+    color: #4c7658;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 30px;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
