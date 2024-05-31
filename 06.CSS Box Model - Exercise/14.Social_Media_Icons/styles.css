@@ -1,0 +1,47 @@
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+
+ul {
+    display: inline-block;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    color: black;
+}
+
+li {
+    display: inline;
+    margin: 0.5em;
+}
+
+a {
+    border: 1px solid;
+    border-radius: 50%;
+    border-color: rgba(237, 233, 233, 0.678);
+    ;
+    padding: 1em;
+    background-color: rgba(237, 233, 233, 0.678);
+}
+
+i {
+    width: 30px;
+    height: 30px;
+    color: black;
+}
+
+li:first-child i:hover {
+    color: rgb(1, 101, 225);
+}
+
+li:nth-child(2) i:hover,
+li:nth-child(4) i:hover {
+    color: #1DA1F2;
+}
+
+li:nth-child(3) i:hover {
+    color: red;
+}
+
+li:nth-child(5) i:hover {
+    color: lightskyblue;
+}
