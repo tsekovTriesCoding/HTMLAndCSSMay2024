@@ -1,0 +1,67 @@
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card {
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 0.3em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card::before {
+    display: block;
+    content: "";
+    position: absolute;
+    inset: 0;
+    box-shadow: 0 0 3em 0.5em rgb(0, 0, 0, 0.5) inset;
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+}
+
+.card:hover::before {
+    opacity: 0;
+}
+
+.card svg {
+    display: block;
+    width: 1.5em;
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    fill: white;
+    cursor: pointer;
+}
+
+.card svg:hover {
+    fill: greenyellow;
+}
+
+.viewport {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+
+div:nth-child(1) {
+    background: #1B7C72;
+    background: linear-gradient(270deg, #1B7C72, #267CBA);
+}
+
+div:nth-child(2) {
+    background: #C67007;
+    background: linear-gradient(270deg, #C67007, #BA2679);
+}
