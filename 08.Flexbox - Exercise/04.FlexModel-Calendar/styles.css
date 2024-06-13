@@ -1,0 +1,37 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+}
+
+div {
+    display: flex;
+    max-width: 65vw;
+    border: 1px solid black;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section span:nth-child(1),
+section span:nth-child(7) {
+    flex: 1 1 100%;
+}
+
+.notes span {
+    padding-top: 0.5em;
+}
+
+span {
+    border: 1px solid black;
+    padding: 2em;
+    flex-grow: 1;
+    padding-bottom: 2em;
+    text-align: center;
+}
