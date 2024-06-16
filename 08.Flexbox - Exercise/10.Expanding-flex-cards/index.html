@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Expanding Flex Cards</title>
+    <style>
+        body {
+            background-color: rgb(238, 238, 238);
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .card {
+            flex: 0 0 60px;
+            width: 60px;
+            height: 200px;
+            position: relative;
+            margin-left: 1em;
+            border-radius: 0.4em;
+            box-shadow: 0 0 0.6em 0 rgb(0, 0, 0, 0.5);
+            overflow: hidden;
+            transition: all 0.3s ease-in;
+            background-color: black;
+        }
+
+        .card:hover {
+            width: 600px;
+            flex: 0 0 320px;
+        }
+
+        .card img {
+            width: auto;
+            height: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="card"><img src="images/Image1.jpg" alt=""></div>
+        <div class="card"><img src="images/Image2.jpg" alt=""></div>
+        <div class="card"><img src="images/Image3.jpg" alt=""></div>
+        <div class="card"><img src="images/Image4.jpg" alt=""></div>
+    </section>
+</body>
+
+</html>
