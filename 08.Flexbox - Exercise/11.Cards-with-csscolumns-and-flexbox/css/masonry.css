@@ -1,0 +1,28 @@
+.masonry {
+    max-width: 60em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+}
+
+.masonry .column {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    flex: 0 0 30%;
+    border-radius: 0.2em;
+    overflow: hidden;
+}
+
+.masonry .card {
+    border: 3px solid lightgrey;
+    background-color: white;
+    display: flex;
+    border-radius: 0.3em;
+    overflow: hidden;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    margin: 1em;
+}

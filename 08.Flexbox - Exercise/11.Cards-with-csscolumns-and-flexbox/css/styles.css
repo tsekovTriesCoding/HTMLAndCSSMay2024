@@ -1,0 +1,39 @@
+@import url(reset.css);
+@import url(masonry.css);
+@import url(flex.css);
+
+body {
+    margin: 2em 6em;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-left: 1.2em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1em;
+}
+
+.card footer {
+    border-top: 1.5px solid lightgrey;
+}
+
+.card p {
+    margin: 1em;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin: 0 1em;
+}
+
+

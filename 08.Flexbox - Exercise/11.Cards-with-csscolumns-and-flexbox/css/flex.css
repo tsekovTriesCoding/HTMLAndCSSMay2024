@@ -1,0 +1,36 @@
+.flex {
+    max-width: 50em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex .row {
+    display: flex;
+    flex: 0 0 100%;
+    justify-content: flex-start;
+    border-radius: 0.2em;
+    overflow: hidden;
+    gap: 1em;
+}
+
+.flex .card {
+    border: 3px solid lightgrey;
+    background-color: white;
+    display: flex;
+    flex: 0 1 30%;
+    border-radius: 0.3em;
+    overflow: hidden;
+    flex-direction: column;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.flex .card footer {
+    margin-top: auto;
+}
+
+.footer-two {
+    margin-left: 0;
+}
