@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+}
+
+.site-title {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0.6em;
+}
+
+header {
+    border-bottom: 2px solid black;
+    margin-bottom: 3em;
+}
+
+main {
+    margin: 18px;
+}
+
+main > * {
+    padding-bottom: 1em;
+}
+
+.site-footer {
+    padding: 18px;
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    position: sticky;
+    bottom: 0;
+}
