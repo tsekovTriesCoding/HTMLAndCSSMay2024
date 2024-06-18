@@ -1,0 +1,27 @@
+@import url(header.css);
+@import url(middle.css);
+
+body {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+body footer {
+    background-color: #B5D8FF;
+    width: 100%;
+    border-radius: 0.3em;
+}
+
+footer>p {
+    margin: 0;
+    padding: 0.6em;
+}
+
+@media (max-width: 500px) {
+    body {
+        display: flex;
+        gap: 1em;
+        flex-direction: column;
+    }
+}
