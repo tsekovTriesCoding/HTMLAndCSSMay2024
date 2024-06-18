@@ -1,0 +1,49 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 50%;
+    background-color: rgb(233, 231, 231);
+}
+
+table {
+    border: 1px solid #CCC;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+table th, table td {
+border: 1px solid #CCC;
+padding-right: 1em;
+text-align: start;
+width: 300px;
+padding-left: 0.5em;
+}
+
+table thead th {
+    background-color: #333;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    tbody>tr:first-child {
+        background-color: rgb(233, 231, 231);
+    }
+    table, tbody, tr, th, td
+ {
+    display: block;
+ }
+
+ thead{
+    display: none;
+ }
+
+ tbody td::before {
+    display: inline-block;
+    content: attr(data-title);
+    font-weight: bold;
+    padding: 0.5em;
+    padding-right: 1em;
+ }
+}
