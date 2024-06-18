@@ -1,0 +1,284 @@
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+@import url(reset.css);
+@import url(typography.css);
+
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.2;
+}
+
+section>header {
+    display: flex;
+    gap: 20em;
+    padding: 1em;
+    margin-bottom: 4em;
+}
+
+section:first-child header p:first-child {
+    color: #800080;
+    font-size: 30px;
+    font-weight: 500;
+    width: 100%;
+}
+
+section:first-child header p:nth-child(2) {
+    text-transform: uppercase;
+    font-size: 8px;
+    font-size-adjust: calc();
+}
+
+section:first-child nav {
+    display: flex;
+    align-items: center;
+}
+
+section:first-child nav ul li {
+    display: inline;
+    list-style: none;
+    padding-left: 2em;
+}
+
+section:first-child nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ---------------- */
+section:nth-child(2) {
+    max-width: 40%;
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    margin-bottom: 6em;
+}
+
+section:nth-child(2)>main>header {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 0.5em;
+}
+
+section:nth-child(2)>main>footer {
+    margin-top: 1.5em;
+}
+
+section:nth-child(2)>main>footer>button {
+    font-size: 12px;
+    border: 2px solid rgb(0, 0, 0, 0.7);
+    background-color: white;
+    padding: 0.5em 1.3em;
+    border-radius: 0.3em;
+}
+
+/* ------------- */
+section:nth-child(3),
+section:nth-child(5) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+
+section:nth-child(3)>.top,
+section:nth-child(5)>.top {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+section:nth-child(3)>div h1,
+section:nth-child(5)>div h1 {
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 0.3em;
+}
+
+section:nth-child(3)>div h1:after,
+section:nth-child(5)>div h1:after {
+    content: "";
+    position: absolute;
+    height: 2.5px;
+    background: black;
+    border-radius: 0.3em;
+    top: 100%;
+    width: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.field {
+    max-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.photo {
+    width: 70px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+section:nth-child(3) .person,
+section:nth-child(5) .person {
+    width: 30%;
+    max-height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person>* {
+    text-align: center;
+}
+
+section:nth-child(3) .person p:nth-child(2) {
+    font-weight: bold;
+}
+
+section:nth-child(3) .person p:nth-child(3) {
+    margin-bottom: 1em;
+}
+
+section:nth-child(3) .person p:nth-child(4) {
+    font-style: italic;
+    margin-bottom: 2em;
+}
+
+/* -------------- */
+section:nth-child(4) {
+    width: 100%;
+    background-color: #68347B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 3em;
+    padding-bottom: 2em;
+    padding-top: 1em;
+}
+
+section:nth-child(4)>p {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 1em;
+    margin-bottom: 2em;
+    font-size: 20px;
+}
+
+section:nth-child(4)>p:after {
+    content: "";
+    position: absolute;
+    height: 2.5px;
+    background: black;
+    border-radius: 0.3em;
+    top: 100%;
+    width: 85px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section:nth-child(4)>div input {
+    width: 250px;
+    padding: 0.3em 0;
+    border-radius: 0.1em;
+}
+
+section:nth-child(4)>div button {
+    margin-left: 0.4em;
+    padding: 0.3em 1em;
+    background-color: white;
+    border-radius: 0.1em;
+}
+
+/* -------------------- */
+
+section:nth-child(5) {
+    width: 100%;
+    background: repeating-linear-gradient(135deg,
+            white,
+            white,
+            rgb(239, 237, 237) 10px,
+            rgb(244, 241, 241) 10px);
+    padding-bottom: 3em;
+    padding-top: 1.7em;
+}
+
+section:nth-child(5) .person>p {
+    font-style: italic;
+    margin-bottom: 1em;
+}
+
+section:nth-child(5) .person>footer p:first-child {
+    font-weight: bold;
+}
+
+section:nth-child(5) .person>footer p:nth-child(2) {
+    margin-bottom: 2em;
+}
+
+section:nth-child(5) {
+    box-shadow: 0 0.3em 0.5em rgb(0 0 0 / 0.1);
+}
+
+/* -------------- */
+body>footer {
+    max-width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+body>footer>* {
+    max-width: 33%;
+}
+
+body>footer nav ul {
+    display: flex;
+    gap: 5px 3em;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body>footer nav ul li {
+    display: flex;
+    width: 100px;
+}
+
+body>footer nav ul li a {
+    min-width: 100%;
+}
+
+body>footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+body>footer div p {
+    padding-bottom: 0.5em;
+}
+
+i {
+    padding-right: 0.5em;
+}
+
