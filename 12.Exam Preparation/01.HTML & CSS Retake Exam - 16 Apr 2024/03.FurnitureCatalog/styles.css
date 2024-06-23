@@ -1,0 +1,245 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i|PT+Serif:400,400i,700,700i&amp;display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px/1.5 "PT Sans";
+}
+
+.site-section.banner {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.banner .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner .container header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 8em;
+}
+
+.site-logo {
+    width: 140px;
+    height: 150px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.container header nav {
+    display: flex;
+}
+
+.container header nav ul {
+    display: flex;
+    gap: 1em;
+    align-self: center;
+}
+
+nav ul li {
+    list-style: none outside;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header-mid-container {
+    max-width: 950px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8em;
+}
+
+.header-mid-container {
+    text-align: center;
+}
+
+.header-mid-container h1 {
+    font-size: 63px;
+    padding-bottom: 0.3em;
+}
+
+.header-mid-container p {
+    font-weight: 600;
+    padding-bottom: 2em;
+}
+
+.header-mid-container .button {
+    background-color: #E7EEF0;
+    flex-shrink: 1;
+    color: #686666;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    font-weight: bold;
+    border-radius: 0.2em;
+}
+
+.site-section.row1 {
+    background-color: #60ACC1;
+    padding-bottom: 3em;
+    padding-top: 2em;
+    margin-bottom: 3em;
+}
+
+.site-section.row1 .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-section.row1 .catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.site-section.row1 .media {
+    max-width: 1650px;
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
+
+.media .card {
+    max-width: 650px;
+    display: flex;
+    border-right: 1em solid #60ACC1;
+    ;
+    box-shadow: 0 0 2em 0.1em rgb(0, 0, 0, 0.7);
+}
+
+.media .card .text {
+    display: flex;
+    height: auto;
+    background-color: white;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.media .card .photo {
+    display: flex;
+    max-width: 360px;
+    aspect-ratio: 1/1;
+}
+
+.site-section.row2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.site-section.row2 .container {
+    display: flex;
+    max-width: 1760px;
+    gap: 8em;
+}
+
+.site-section.row2 .container .card {
+    max-width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.site-section.row2 .container .card .photo {
+    max-width: 200px;
+}
+
+.site-section.row2 .container .card .photo img {
+    width: 100%;
+    aspect-ratio: 1 /1;
+}
+
+.site-section.row3 {
+    display: flex;
+    justify-content: center;
+    background-color: #60ACC1;
+}
+
+.site-section.row3 .container {
+    max-width: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0;
+}
+
+.site-section.row3 .container .catalog {
+    align-self: center;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+.site-section.row3 .container .media {
+    width: 100%;
+    display: flex;
+    gap: 5em;
+}
+
+.site-section.row3 .container .media .photo {
+    width: 33%;
+    display: flex;
+    box-shadow: 0 0 2em 0.1em rgb(0, 0, 0, 0.7);
+}
+
+.site-section.row4 {
+    display: flex;
+    justify-content: center;
+    padding: 3em 0;
+}
+
+.site-section.row4 .container {
+    max-width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #67686B;
+}
+
+.site-section.row4 .container header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.site-section.row4 .container header p {
+    font-style: italic;
+}
+
+.site-section.row4 .container div p{
+    text-align: center;
+}
+
+.site-section.footer {
+    background-color: #2D333C;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
