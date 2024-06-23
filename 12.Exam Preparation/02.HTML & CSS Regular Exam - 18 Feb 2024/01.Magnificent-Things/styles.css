@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 13px/1.5 Inter;
+}
+
+.container {
+    display: flex;
+    width: 1060px;
+    margin: 2em auto;
+    background-color: #85DCFF;
+    justify-content: space-between;
+    padding: 3em 1.5em;
+}
+
+.container .text {
+    display: flex;
+    max-width: 540px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container .text header {
+    max-width: 390px;
+    line-height: normal;
+    margin-bottom: 2em;
+}
+
+.container .text h1 {
+    font-size: 2.5rem;
+}
+
+.container .image {
+    max-width: 360px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+}
+
+.buttons {
+    display: flex;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+.buttons a {
+    padding: 0.8em 2em;
+    border-radius: 0.3em;
+    text-decoration: none;
+    color: black;
+}
+
+.buttons a:first-child {
+    border: 1.5px solid black;
+    background-color: #42AA59;
+}
+
+.buttons a:nth-child(2) {
+    background-color: #FFFFFF;
+}
+
+.buttons a:first-child:hover {
+    background-color: black;
+    color: white;
+    transition: ease-in 0.2s;
+}
+
+img {
+    box-shadow: 5px 5px 7px rgb(0, 0, 0, 0.8);
+}
