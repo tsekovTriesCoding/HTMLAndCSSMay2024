@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.5.1/css/all.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 16px/1.5 Ubuntu;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+header .cinema {
+    display: flex;
+    align-items: flex-end;
+    gap: 2em
+}
+
+.cinema p:first-child {
+    font-size: 3.13em;
+    border-right: 2px solid #DBDBDB;
+    padding-right: 0.5em;
+}
+
+.cinema p:nth-child(2) {
+    color: #808090;
+}
+
+header nav ul {
+    display: flex;
+    gap: 2px;
+}
+
+nav ul li {
+    list-style: none outside;
+}
+
+li a {
+    text-decoration: none;
+    background-color: #ECECEC;
+    color: #696969;
+    padding: 1em 2em;
+}
+
+li .green {
+    background-color: #56DBB1;
+    color: black;
+}
+
+.cinema-image {
+    width: 100%;
+    display: flex;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.green-row {
+    display: flex;
+    justify-content: center;
+    background-color: #56DBB1;
+    padding: 3em 0;
+}
+
+.text {
+    max-width: 1200px;
+    text-align: center;
+}
+
+.black-row {
+    display: flex;
+    background-color: #353434;
+    justify-content: center;
+    padding: 6em 0;
+}
+
+.black-row .container {
+    max-width: 1300px;
+    display: flex;
+    gap: 2em;
+}
+
+.card {
+    max-width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .icon {
+    width: 110px;
+    aspect-ratio: 1/1;
+    background-color: #56DBB1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .icon svg {
+    width: 60px;
+    height: 50px;
+    fill: white;
+}
+
+.card p {
+    color: #5B5956;
+    text-align: center;
+}
+
+.card .header {
+    width: 100%;
+    color: white;
+    padding: 1em 0;
+    margin-bottom: 1em;
+}
+
+.black-row.icon .card .header {
+    border-bottom: 2px solid white;
+    padding: 1em 0;
+}
+
+.white-row {
+    display: flex;
+    justify-content: center;
+    padding: 4em 0;
+}
+
+.white-row .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #C3BCB8;
+}
+
+.white-row .container h1 {
+    color: #5F5F5F;
+}
+
+.white-row .container .button {
+    background-color: #974D1B;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    color: white;
+    margin-top: 2em;
+}
+
+.black-row .card .header {
+    font-size: 1.3em;
+    padding: 0;
+}
+
+footer {
+    background-color: #1B9772;
+    text-align: center;
+    color: #56DBB1;
+    padding: 3em 0;
+    letter-spacing: 3px;
+}
+
+footer span {
+    color: white;
+}
