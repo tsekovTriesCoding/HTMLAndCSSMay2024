@@ -1,0 +1,92 @@
+@media (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+
+    .Heading2 {
+        font-size: 36px;
+    }
+
+    .navigation-max-width {
+        padding: 1em;
+    }
+
+    .navigation-max-width .navigation-nav {
+        display: none;
+    }
+
+    .home-text-container .home-text {
+        display: none;
+    }
+
+    .home-portofolio.section-container {
+        padding-top: 3em;
+    }
+
+
+    .home-text01.Heading2 {
+        font-size: 34px;
+        margin-bottom: 0;
+    }
+
+    .home-text02 {
+        font-size: 12px;
+    }
+
+    .home-tab-selector-header {
+        margin-top: 1em;
+        font-size: 14px;
+    }
+
+    .home-tab-selector-cards-container {
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .portofolio-card-first-name {
+        font-size: 14px;
+    }
+
+    .max-content-container {
+        flex-wrap: wrap;
+    }
+
+    .home-about.section-container {
+        padding: 2em 0;
+    }
+
+    .home-image-container {
+        display: none;
+    }
+    
+    .home-text05.Heading2 {
+        font-size: 36px;
+    }
+
+    .home-text10 {
+        margin-right: 30px;
+    }
+
+    .home-top-part {
+        flex-direction: column;
+    }
+
+    .home-links-container {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .home-subscribe-container {
+        width: 100%;
+        margin-top: 2em;
+    }
+
+    .section-container {
+        padding: 2em 0;
+    }
+
+    .button-primary.button {
+        padding: 1.5em 2em;
+    }
+
+}
