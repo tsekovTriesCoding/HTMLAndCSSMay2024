@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 15px Inter;
+}
+
+h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 1.5em;
+}
+
+.whole-container {
+    max-width: 1920px;
+    margin: 0 auto;
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    padding: 5.67em 9.33em;
+}
+
+.cards-container {
+    max-width: 1640px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    max-width: 540px;
+    padding: 3em 3.2em 2.67em 2.67em;
+    display: flex;
+}
+
+.card .price {
+    font-size: 1.53em;
+    font-weight: 300;
+    padding-bottom: 1em;
+}
+
+.card .price span {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.card .billed {
+    color: rgba(99, 94, 89, 1);
+    padding-bottom: 2em;
+}
+
+.card .with-check {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+.card:first-of-type .with-check-last {
+    font-size: 1.2em;
+    padding-bottom: 4em;
+}
+.card:nth-of-type(2) .with-check-last {
+    font-size: 1.2em;
+    padding-bottom: 5.67em;
+}
+
+.card:nth-of-type(3) .with-check-last {
+    font-size: 1.2em;
+    padding-bottom: 3em;
+}
+
+.card .button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1em 2em;
+    justify-self: flex-end;
+    border-radius: 0.3em;
+}
