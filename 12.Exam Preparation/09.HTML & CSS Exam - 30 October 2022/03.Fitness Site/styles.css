@@ -1,0 +1,205 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px "PT sans", serif;
+}
+
+li {
+    list-style: none outside;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.site-header {
+    padding: 1em 4em;
+    color: white;
+    background-color: rgba(208, 25, 25, 1);
+}
+
+.site-header a {
+    display: flex;
+    height: 20px;
+}
+
+svg {
+    height: 20px;
+    fill: white;
+}
+
+.site-header .container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header .container .contacts,
+.site-header .container .address {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.site-header .container .social-media {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.site-banner {
+    background-image: url(image/fitness-main.jpg);
+    background-size: 100%;
+    background-position: center -16.3em;
+    background-repeat: no-repeat;
+}
+
+.site-banner header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 2em;
+}
+
+.site-banner header ul {
+    display: flex;
+    gap: 4em;
+}
+
+.site-banner main {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    max-width: 585px;
+    margin: 0 auto;
+    margin-top: 3em;
+    text-align: center;
+}
+
+.site-banner main h1 {
+    font-size: 2.7em;
+    letter-spacing: 0.2em;
+    padding-bottom: 1em;
+}
+
+.site-banner main .button {
+    align-self: center;
+    background-color: rgba(208, 25, 25, 1);
+    font-weight: bold;
+    padding: 0.3em 1.2em;
+    border-radius: 0.3em;
+    margin-top: 3em;
+    margin-bottom: 9.5em;
+}
+
+.site-welcome h1,
+.site-coaches h1 {
+    text-align: center;
+    padding-top: 1em;
+}
+
+.site-welcome h1::after {
+    display: block;
+    content: '';
+    width: 2em;
+    height: 3px;
+    background-color: rgba(208, 25, 25, 1);
+    margin: 1em auto;
+}
+
+.site-welcome .cards-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+.site-welcome .cards-container .card {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.site-welcome .cards-container .card .media img {
+    width: 15%;
+    margin: 0 auto;
+}
+
+.site-welcome .cards-container .card .media {
+    padding-bottom: 2em;
+}
+
+.site-welcome .cards-container .card h4,
+.site-welcome .cards-container .card p,
+.site-coaches .cards-container .card h4,
+.site-coaches .cards-container .card p {
+    padding-bottom: 1em;
+}
+
+.site-welcome .cards-container .card h4 {
+    color: rgba(208, 25, 25, 1);
+}
+
+.site-coaches {
+    background-color: rgba(239, 239, 239, 1);
+    padding-bottom: 1em;
+}
+
+.site-coaches h1::after {
+    display: block;
+    content: '';
+    width: 2em;
+    height: 5px;
+    background-color: rgba(208, 25, 25, 1);
+    margin: 1em auto;
+}
+
+.site-coaches .cards-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+}
+
+.site-coaches .cards-container .card {
+    flex: 0 0 23%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.site-coaches .cards-container .card .media {
+    border-radius: 0.3em;
+    overflow: hidden;
+    padding-bottom: 1em;
+}
+
+.site-coaches .cards-container .card p:first-of-type {
+    color: rgba(208, 25, 25, 1);
+    font-weight: bold;
+}
+
+.site-coaches .cards-container .card p:nth-of-type(2) {
+    color: rgba(173, 161, 165, 1);
+}
+
+.site-footer {
+    background-color: rgba(208, 25, 25, 1);
+    padding: 0.5em;
+    text-align: center;
+}
