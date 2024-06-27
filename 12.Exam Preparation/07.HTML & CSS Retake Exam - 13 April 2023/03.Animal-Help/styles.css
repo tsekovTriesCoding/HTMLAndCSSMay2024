@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 8em;
+    font-weight: bold;
+}
+
+.site-header nav ul {
+    display: flex;
+    gap: 1em;
+}
+
+nav ul li {
+    list-style: none outside;
+}
+
+.site-donate {
+    background-color: rgba(133, 220, 255, 1);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10.67em;
+    padding-right: 5.47em;
+    box-shadow: 0 8px 4px -4px rgb(222 219 219 / 80%) inset;
+    margin-bottom: 2em;
+}
+
+.site-donate .text {
+    max-width: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.site-donate .text h1 {
+    padding-bottom: 1em;
+}
+
+.site-donate .text p {
+    padding-bottom: 2.5em;
+}
+
+.site-donate .text .buttons .button {
+    padding: 1em 2em;
+    border: 1px solid black;
+    border-radius: 0.5em;
+}
+
+.site-donate .text .buttons .button.donate {
+    background-color: rgba(255, 255, 255, 1);
+    margin-right: 2em;
+}
+
+.site-donate .text .buttons .button.join {
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.site-donate .media {
+    background-image: url(Images/Promo-MemberPaw.jpg);
+    width: 554px;
+    aspect-ratio: 1/1;
+    display: flex;
+}
+
+.site-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.site-cards .text {
+    max-width: 600px;
+}
+
+.site-cards .text p {
+    padding-top: 2em;
+    padding-bottom: 3em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.site-cards .cards-container {
+    display: flex;
+    max-width: 1330px;
+    justify-content: space-between;
+}
+
+.site-cards .cards-container .card {
+    display: flex;
+    flex: 0 1 360px;
+}
+
+.site-cards .cards-container .card article {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.site-cards .cards-container .card article .icon {
+    width: 170px;
+    height: 150px;
+    margin-bottom: 2em;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    fill: rgba(133, 220, 255, 1);
+}
+
+.site-cards .cards-container .card article h4 {
+    padding-bottom: 2em;
+}
+
+.site-mission {
+    background-color: rgba(133, 220, 255, 1);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 0;
+}
+
+.site-mission h1 {
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+.site-mission .text-container {
+    max-width: 910px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-auto-flow: column;
+    row-gap: 1em;
+    column-gap: 4em;
+}
+
+.point-container {
+    display: flex;
+    max-width: 286px;
+}
+
+.point-container i {
+    padding-right: 0.5em;
+}
+
+.site-mission .button {
+    background-color: black;
+    color: white;
+    padding: 1em 5em;
+    border-radius: 0.3em;
+    margin-top: 2em;
+}
+
+.site-animals {
+    padding-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-animals h1 {
+    font-weight: 900;
+    padding-bottom: 0.5em;
+}
+
+.site-animals .media {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding-top: 2em;
+    padding-bottom: 4em;
+}
+
+.site-animals .media img {
+    width: 20%;
+    height: auto;
+}
+
+.site-how-we-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4em;
+}
+
+.site-how-we-work .wide.cards-container {
+    max-width: 1200px;
+    margin-top: 2em;
+}
+
+.wide.cards-container .wide-card {
+    border: 1.5px solid rgba(229, 229, 229, 1);
+    border-radius: 0.3em;
+    overflow: hidden;
+    margin-bottom: 1.5em;
+}
+
+.wide.cards-container .wide-card .heading {
+    background-color: rgba(133, 220, 255, 1);
+    padding: 1em;
+    padding-left: 2em;
+    font-weight: bold;
+}
+
+.wide.cards-container .wide-card p:nth-child(2) {
+    padding: 2.25em 2.5em 3.13em 2em;
+    font-weight: 600;
+}
+
+.site-news {
+    display: flex;
+}
+
+.site-news .media {
+    flex: 1 1 50%;
+    display: flex;
+}
+
+.site-news .media img {
+    width: 100%;
+    height: auto;
+}
+
+.site-news .text {
+    flex: 1 1 50%;
+    padding: 4em 7.5em 2.63em 5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.site-news .text h2 {
+    padding-bottom: 2em;
+}
+
+.site-news .text p:nth-child(2) {
+    color: rgba(19, 19, 19, 1);
+    margin-bottom: 4em;
+}
+
+.site-news .e-mail {
+    border: 1.5px solid rgba(226, 226, 226, 1);
+    max-width: 60%;
+    padding: 1em;
+    border-radius: 0.3em;
+    margin-bottom: 2em;
+    color: rgba(117, 117, 117, 1);
+    font-weight: 600;
+}
+
+.site-news .button {
+    background-color: black;
+    color: white;
+    max-width: 40%;
+    text-align: center;
+    padding: 1em 4em;
+    border-radius: 0.3em;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.25em 6em;
+}
+
+.site-footer .social-media {
+    display: flex;
+    gap: 1em;
+}
+
+.social-media a {
+    width: 30px;
+    aspect-ratio: 1/1;
+}
+
+.social-media a svg {
+    fill: black;
+}
