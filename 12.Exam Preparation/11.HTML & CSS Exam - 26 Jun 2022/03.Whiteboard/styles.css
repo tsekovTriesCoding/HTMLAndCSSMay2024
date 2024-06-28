@@ -1,0 +1,215 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 22px "PT Sans", sans-serif;
+}
+
+body {
+    margin: 0 4em;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0px 0px 4px black;
+}
+
+.site-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.3)),
+        url(image/computer-main.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-header .top-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 10em;
+}
+
+.site-header .top-container i {
+    padding-right: 0.3em;
+}
+
+.site-header .text-container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5em;
+    color: white;
+    text-shadow: 0px 0px 4px black;
+}
+
+
+
+.text-container h1 {
+    font-size: 2.2em;
+    padding-bottom: 1em;
+}
+
+.site-header .text-container>p {
+    width: 64%;
+    margin: 0 auto;
+}
+
+.site-header .text-container>p span {
+    font-weight: bold;
+}
+
+.text-container .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-container .button:first-of-type {
+    padding: 0.5em 1em;
+    border-radius: 0.2em;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    background-color: rgba(0, 208, 142, 1);
+    font-weight: bold;
+}
+
+.text-container .button:first-of-type {
+    text-shadow: none;
+}
+
+.text-container .button i {
+    padding-left: 0.5em;
+    width: 5px
+}
+
+.hustle-container {
+    display: flex;
+}
+
+.perfect-container {
+    display: flex;
+}
+
+.media {
+    display: flex;
+}
+
+.hustle-container .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.media,
+.text {
+    flex: 1 0 50%;
+}
+
+.hustle-container .text {
+    padding: 2em 5.13em 2.13em 3.88em;
+}
+
+.hustle-container .text h2 {
+    padding-bottom: 0.5em;
+}
+
+.hustle-container .text p:not(:nth-child(5)) {
+    padding-bottom: 1em;
+}
+
+.hustle-container .text .checks p {
+    font-size: 18px;
+    color: rgba(32, 37, 45, 1);
+}
+
+.hustle-container .text .checks i {
+    padding-right: 1em;
+    color: rgba(0, 208, 142, 1);
+}
+
+/* .perfect-container .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.perfect-container .text h2 {
+    text-align: center;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3em;
+    padding-bottom: 2em;
+}
+
+.icon {
+    display: flex;
+    flex: 0 1 20%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon .media {
+    max-width: 80px;
+    margin-bottom: 0.5em;
+}
+
+.icon p {
+    color: rgba(0, 208, 142, 1);
+    font-weight: bold;
+}
+
+.site-footer {
+    background-color: rgba(178, 241, 221, 1);
+}
+
+.site-footer h2 {
+    padding-top: 1em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.site-footer .questions-container {
+    gap: 3em;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 90%;
+    text-align: center;
+    margin-bottom: 2em;
+    justify-content: center;
+}
+
+.site-footer .questions-container article {
+    flex: 0 1 27%;
+    font-size: 0.73em;
+}
+
+.site-footer .questions-container article h3{
+    padding-bottom: 1em;
+}
+
+.site-footer footer {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+footer p span {
+    font-weight: bold;
+}
