@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 13px Mulish, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+label {
+    margin-top: 1em;
+}
+
+input {
+    border: 1.5px solid rgba(213, 213, 213, 1);
+    border-radius: 1.5em;
+    padding: 0.7em 0;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.info-to-enter input {
+    width: 100%;
+}
+
+.background {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 9.7em;
+}
+
+.background::before {
+    display: block;
+    content: "";
+    width: 40px;
+    height: 9.7em;
+    margin: 0 auto;
+    background-color: rgba(174, 60, 51, 1);
+}
+
+.registration-form-container {
+    max-width: 870px;
+    margin: 0 auto;
+    padding: 5.75em 0 3.88em 2.88em;
+    background-image: url(images/form-background.png);
+    background-size: 100%;
+    border-radius: 2em;
+    overflow: hidden;
+    box-shadow: 12px 10px 5px 1px rgba(137, 136, 136, 10);
+    margin-top: 3px;
+}
+
+.registration-form-container .text {
+    max-width: 370px;
+    color: rgba(102, 102, 102, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.text h1 {
+    text-align: center;
+    color: rgba(51, 51, 51, 1);
+    font-weight: 600;
+}
+
+.text .names {
+    display: flex;
+    gap: 1em;
+}
+
+.text .names form {
+    display: flex;
+    flex: 1 1 50%;
+    flex-direction: column;
+}
+
+.text .names .email {
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+}
+
+.text>form:last-of-type input {
+    margin-right: 0.3em;
+    background: #FFF;
+}
+
+.text>form:last-of-type input::after {
+    position: relative;
+    display: block;
+    width: 11px;
+    height: 11px;
+    border: 1px solid rgba(204, 204, 204, 1);
+    content: "";
+    background: rgba(235, 235, 235, 1);
+}
+
+.text .button {
+    background-color: rgba(174, 60, 51, 1);
+    padding: 0.5em 1.5em;
+    margin: 0 auto;
+    border-radius: 1.5em;
+    margin-top: 2em;
+}
