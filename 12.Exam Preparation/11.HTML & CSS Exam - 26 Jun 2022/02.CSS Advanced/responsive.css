@@ -1,0 +1,54 @@
+@media (max-width:600px) {
+    body {
+        margin: 0;
+    }
+    main {
+        width: 100%
+    }
+
+    header h1 {
+        font-size: 2.5rem;
+    }
+
+    .left-to-right:first-child {
+        height: min-content;
+        padding-bottom: 130px;
+    }
+
+    main .left-to-right article {
+        border-radius: 20%;
+        padding: 3em 3em;
+        width: auto;
+        height: min-content;
+    }
+
+
+    button {
+        display: none;
+    }
+
+    main section:nth-child(2), main section:nth-child(4) {
+        flex-direction: column;
+    }
+
+    form {
+        width: 100%;
+        text-align: center;
+    }
+
+    main section.left-to-right:nth-child(3) {
+        justify-content: center;
+    }
+
+    section form label input, section form textarea {
+        width: 70%;
+    }
+
+    main section:nth-child(2) article, main section:nth-child(4) article {
+        align-items: center;
+    }
+
+    main section:nth-child(2) article img, main section:nth-child(4) article img {
+        width: 80%;
+    }
+}
