@@ -1,0 +1,234 @@
+@import url(https://fonts.google.com/specimen/Raleway);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 20px;
+}
+
+h1 {
+    font-family: Raleway, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    display: flex;
+    list-style: none outside;
+    background-color: rgba(144, 144, 144, 1);
+    padding: 0.5em;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 1530px;
+    margin: 0 auto;
+    gap: 1.5em;
+}
+
+.site {
+    margin: 0 auto;
+    background-color: rgba(239, 239, 239, 1);
+    max-height: 640px;
+    padding: 0 6.33em;
+    overflow: hidden
+}
+
+.menu header {
+    text-align: right;
+    padding: 1.5em;
+}
+
+.menu header i {
+    padding-left: 0.5em;
+}
+
+main {
+    display: flex;
+    gap: 7em;
+}
+
+main .text {
+    flex: 0 0 40%;
+    padding-top: 4em;
+}
+
+main .media {
+    flex: 1 1 60%;
+}
+
+h1 {
+    font-size: 2.2em;
+}
+
+.text span {
+    font-weight: 100;
+}
+
+main .text p::after,
+.stairs p::after {
+    display: block;
+    content: '';
+    width: 2px;
+    height: 75px;
+    background-color: black;
+    margin-top: 2em;
+}
+
+p {
+    line-height: 1.5;
+    font-style: italic;
+    color: rgba(20, 20, 20, 1);
+    padding-top: 2em;
+}
+
+.my-name {
+    display: flex;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    gap: 4em;
+}
+
+.my-name .text {
+    flex: 0 1 680px;
+}
+
+.my-name .text h1::before {
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    width: 75px;
+    height: 2px;
+    background-color: black;
+    margin-right: 1em;
+}
+
+.my-name .media {
+    display: flex;
+}
+
+.my-name .social-media {
+    display: flex;
+    gap: 1em;
+    margin-top: 3em;
+}
+
+.my-name .social-media i {
+    display: block;
+    color: white;
+    width: 1em;
+}
+
+.girl-photo {
+    padding: 0;
+}
+
+.stairs {
+    display: flex;
+    gap: 5em;
+    padding-top: 5.5em;
+    padding-bottom: 5.5em;
+    padding-right: 6.33em;
+    justify-content: space-between;
+}
+
+.stairs .text {
+    padding-top: 2em;
+    flex: 0 0 35%;
+}
+
+.stairs .media {
+    flex: 0 1 65%;
+    display: flex;
+}
+
+.three-photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5.5em;
+    padding-bottom: 5.5em;
+}
+
+.three-photos .media {
+    display: flex;
+}
+
+.three-photos .media.one,
+.three-photos .media.three {
+    width: 290px;
+    height: 310px;
+}
+
+.three-photos .media.two {
+    flex: 1 1 45%;
+}
+
+.say-hello {
+    padding-top: 3.5em;
+    padding-bottom: 0.5em;
+}
+
+.say-hello .container {
+    max-width: 70%;
+}
+.say-hello .text{
+    text-align: center;
+}
+
+.say-hello .form {
+    font-family: Raleway, sans-serif;
+    width: 60%;
+    margin: 0 auto;
+    gap: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.say-hello .form  p {
+   border: 1px solid black;
+   padding: 0.5em 1em;
+   font-style: normal;
+}
+
+.say-hello .form  .message p {
+   padding: 0.5em 1em;
+   padding-bottom: 4em;
+}
+
+.say-hello .form .email-buttons {
+    display: flex;
+    gap: 1.5em;
+}
+
+.say-hello .form .email-buttons p{
+    flex: 1 1 50%;
+}
+
+.say-hello .button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5em 0;
+    font-weight: 500;
+}
+
+.say-hello footer {
+    text-align: center;
+}
+
