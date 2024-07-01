@@ -1,0 +1,288 @@
+@import url(https://fonts.google.com/specimen/Open+Sans);
+@import url(https://fonts.google.com/specimen/Poppins);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px 'PT Sans', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    padding: 0 15em;
+}
+
+.site-header {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header nav ul {
+    display: flex;
+    gap: 2em;
+}
+
+.site-header nav ul a {
+    color: rgba(16, 41, 85, 1);
+    font-weight: 600;
+}
+
+.site-dog {
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.site-dog .container {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 5em;
+    padding-left: 17em;
+}
+
+.site-dog .container .text {
+    flex: 0 0 30%;
+}
+
+.site-dog .container .text h1:first-child {
+    font-size: 4em;
+    font-weight: lighter;
+}
+
+.site-dog .container .text h1:nth-child(2) {
+    font-size: 4em;
+    font-weight: bolder;
+    padding-bottom: 0.5em;
+}
+
+.site-dog .container .text .button {
+    display: inline-block;
+    background-color: white;
+    color: rgba(255, 54, 0, 1);
+    padding: 1em 2em;
+    border-radius: 2em;
+    font-weight: bold;
+    margin-top: 3em;
+    text-align: center;
+}
+
+.site-dog .container .media {
+    position: relative;
+    top: 3em;
+    right: 10em;
+    width: 1260px;
+    height: 860px;
+}
+
+
+.site-services {
+    margin-top: 10em;
+    text-align: center;
+}
+
+.site-services p {
+    color: rgba(151, 151, 152, 1);
+}
+
+.site-services>h1 {
+    font-size: 3em;
+}
+
+.site-services>p:nth-child(2) {
+    padding-bottom: 5em;
+    max-width: 45%;
+    margin: 0 auto;
+    padding-top: 1em;
+}
+
+.site-services .cards {
+    display: flex;
+    gap: 1.5em;
+    margin-bottom: 7em;
+}
+
+.site-services .cards .card {
+    flex: 1 1 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(255, 201, 197, 1);
+    border-radius: 0.6em;
+}
+
+.card .text {
+    padding: 2em;
+    padding-bottom: 3em;
+}
+
+.card .text h3 {
+    padding-bottom: 1em;
+}
+
+.site-services .cards .card .media {
+    background-image: url(images/service-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 140px;
+    aspect-ratio: 1/1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.cards .card .media img {
+    width: 80px;
+}
+
+.site-cat {
+    margin-bottom: 3em;
+}
+
+.site-cat .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.site-cat .container .text {
+    flex: 0 1 50%;
+}
+
+.site-cat .container .text h2 {
+    font-size: 3em;
+}
+
+.site-cat .container .text h2:first-child {
+    font-weight: lighter;
+}
+
+.site-cat .container .text p {
+    color: rgba(102, 102, 111, 1);
+    padding-top: 2em;
+}
+
+.site-cat .container .text .button {
+    display: inline-block;
+    background-color: rgba(237, 88, 22, 1);
+    color: white;
+    padding: 1em 2.5em;
+    border-radius: 2em;
+    margin-top: 3em;
+}
+
+.site-cat .container .media {
+    flex: 0 1 40%;
+}
+
+.site-anipat {
+    background-image: url(images/cats-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    padding-bottom: 9em;
+    color: white;
+}
+
+.site-anipat .container .text {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.site-anipat .container .text h1 {
+    font-size: 3em;
+    padding-bottom: 1em;
+}
+
+.site-anipat .container .text .contacts {
+    font-weight: bold;
+    margin-top: 3em;
+}
+
+.site-anipat .container .text .contacts .button {
+    display: inline-block;
+    background-color: white;
+    color: rgba(255, 54, 0, 1);
+    padding: 1em 2.5em;
+    border-radius: 2em;
+}
+
+.site-anipat .container .text .contacts span {
+    padding: 0 1em;
+    font-weight: normal;
+}
+
+.site-anipat .container .text .contacts .phone {
+    color: white;
+}
+
+.site-footer {
+    padding-top: 7.5em;
+    padding-bottom: 7em;
+}
+
+.site-footer:not(h3) {
+    color: rgba(122, 122, 122, 1);
+}
+
+.site-footer .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    gap: 2em;
+}
+
+.navigation h3 {
+    padding-bottom: 2em;
+}
+
+.navigation ul li:not(:last-child) {
+    padding-bottom: 1em;
+}
+
+.navigation a {
+    color: rgba(122, 122, 122, 1);
+}
+
+.site-footer .address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.address .media {
+    padding-bottom: 2em;
+}
+
+.quick-link {
+    margin-left: 3em;
+}
+
