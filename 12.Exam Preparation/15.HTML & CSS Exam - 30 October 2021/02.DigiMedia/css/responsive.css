@@ -1,0 +1,85 @@
+@media (max-width: 600px) {
+    #home {
+        text-align: center;
+    }
+
+    .navbar.navbar-expand-lg.navbar-light {
+        padding: 20px 0 0 0;
+        justify-content: center;
+    }
+
+    .navbar-light .navbar-brand {
+        margin-right: 0;
+    }
+
+    .container-fluid.hero img {
+        display: none;
+    }
+
+    .hero h1 {
+        margin-top: 60px;
+    }
+
+    .hero-btns {
+        display: flex;
+        margin: 0 auto;
+        margin-bottom: 100px;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 70%;
+    }
+
+    .col-12.col-sm-12.col-lg-4.service-txt {
+        text-align: center;
+    }
+
+    .col-12.col-sm-6.col-lg-4 {
+        padding-right: 50px;
+        padding-left: 68px;
+    }
+
+    .service-box {
+        padding: 24px 36px 152px 31px;
+    }
+
+    .about {
+        text-align: center;
+    }
+
+    .col-12.col-sm-12.col-lg-6 {
+        padding-top: 75px;
+    }
+
+    .contact {
+        text-align: center;
+    }
+
+    .contact .container {
+        padding-left: 24px;
+        padding-right: 0;
+        margin-right: 0;
+        padding-bottom: 5px;
+        max-width: 100%;
+    }
+
+    .contact .row:nth-child(3) .col-12:last-child {
+        display: none;
+    }
+
+    footer .row {
+        justify-content: center;
+    }
+
+    footer .row .col-12{
+        max-width: min-content;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer h6 {
+        padding-bottom: 0;
+    }
+}
