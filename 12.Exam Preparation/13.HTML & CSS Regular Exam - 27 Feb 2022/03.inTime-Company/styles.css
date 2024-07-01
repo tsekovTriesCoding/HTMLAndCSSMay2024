@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 20px Helvetica, sans-serif;
+    color: rgba(69, 69, 69, 1);
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(69, 69, 69, 1);
+}
+
+li {
+    list-style: none outside;
+}
+
+.site-header {
+    padding: 2em 10em;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header .container>a {
+    font-size: 1.5em;
+}
+
+.site-header .container>a span {
+    color: rgba(33, 162, 181, 1);
+}
+
+.site-header .container ul {
+    display: flex;
+    gap: 2em;
+}
+
+.site-header .container ul li:first-child::after {
+    display: block;
+    content: '';
+    width: 3em;
+    height: 0.2em;
+    background-color: rgba(52, 177, 196, 1);
+    margin-top: 0.2em;
+}
+
+.main {
+    padding: 0 9.8em;
+}
+
+.site-banner {
+    background-image: url(images/slide2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 11.8em;
+    padding-bottom: 8.2em;
+}
+
+.site-banner .container {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: baseline;
+    background-color: rgba(0, 0, 0, 0.6);
+    max-width: max-content;
+    padding: 1.4em 1.2em 1em 1.2em;
+}
+
+.site-banner .container h1 {
+    font-weight: 400;
+}
+
+.site-banner .container .button {
+    color: white;
+    background-color: rgba(0, 140, 186, 1);
+    padding: 0.5em 1.5em;
+    margin-top: 1em;
+    border-radius: 1.5em;
+}
+
+.site-welcome {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.site-welcome h1 {
+    padding-bottom: 1em;
+    font-weight: lighter;
+}
+
+.site-welcome h1::after {
+    display: block;
+    content: '';
+    width: 6.5rem;
+    height: 0.2rem;
+    background-color: rgba(52, 177, 196, 1);
+    margin: 0 auto;
+    margin-top: 0.2em;
+}
+
+.site-welcome p {
+    margin-bottom: 3em;
+}
+
+.site-welcome .button {
+    display: inline-block;
+    background-color: rgba(69, 69, 69, 1);
+    color: white;
+    padding: 0.5em 1.5em;
+    border-radius: 1.5em;
+}
+
+.site-cards {
+    background-color: rgba(238, 240, 241, 1);
+    text-align: center;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
+}
+
+.site-cards h1 {
+    padding-bottom: 1.5em;
+    font-weight: lighter;
+}
+
+.site-cards h1::after {
+    display: block;
+    content: '';
+    width: 6.5rem;
+    height: 0.2rem;
+    background-color: rgba(69, 69, 69, 1);
+    margin: 0 auto;
+    margin-top: 0.2em;
+}
+
+.site-cards .cards-container {
+    display: flex;
+    gap: 1.5em;
+}
+
+.card {
+    flex: 1 1 30%;
+    background-color: white;
+    border-radius: 0.3em;
+    overflow: hidden;
+}
+
+.card .text {
+    padding: 2em 1.5em;
+}
+
+.card .text h3 {
+    padding-bottom: 0.5em;
+    font-weight: 400;
+}
+
+.card .text .button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    background-color: rgba(69, 69, 69, 1);
+    color: white;
+    margin-top: 1em;
+}
+
+.site-newsletter {
+    background-color: rgba(57, 63, 67, 1);
+    color: white;
+    text-align: center;
+    padding-top: 2.3em;
+    padding-bottom: 3em;
+}
+
+.site-newsletter .container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.site-newsletter .container h1 {
+    padding-bottom: 1em;
+    font-weight: lighter;
+}
+
+.site-newsletter .container h1::after {
+    display: block;
+    content: '';
+    width: 6.5rem;
+    height: 0.2rem;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 0.2em;
+}
+
+.site-newsletter .container .form {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+    margin-top: 2em;
+}
+
+.form p {
+    text-align: left;
+    flex: 1 1 75%;
+    background-color: rgba(84, 90, 94, 1);
+    border-radius: 0.3em;
+    align-self: center;
+    padding: 0.5em 0.3em;
+    color: rgba(117, 117, 117, 1);
+    font-style: italic;
+}
+
+.form .button {
+    flex: 1 1 25%;
+    color: white;
+    background-color: rgba(107, 191, 255, 1);
+    padding: 0.5em 1em;
+    border-radius: 0.3em;
+    text-transform: uppercase;
+}
+
+.site-navigaton {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(47, 53, 57, 1);
+    color: white;
+    padding-top: 3.1em;
+    padding-bottom: 3.7em;
+}
+
+.site-navigaton .navigation {
+    display: flex;
+    gap: 10em;
+}
+
+.site-navigaton h3 {
+    padding-bottom: 1em;
+    font-weight: 400;
+}
+
+.navigation nav ul li:not(:last-child) {
+    padding-bottom: 1em;
+}
+
+.navigation nav ul li a {
+    color: white;
+}
+
+.navigation .address .contacts {
+    padding-top: 2em;
+}
+
+.site-navigaton .social-media ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navigaton .social-media ul li a {
+    color: white;
+}
+
+.site-footer {
+    background-color: rgba(38, 43, 47, 1);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.site-footer span {
+    color: rgba(4, 129, 170, 1);
+}
