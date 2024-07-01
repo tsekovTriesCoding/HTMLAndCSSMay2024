@@ -1,0 +1,72 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px Poppins, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 1120px;
+    margin: 3em auto;
+    color: rgba(102, 102, 102, 1);
+}
+
+.container>h1,
+.container>p {
+    text-align: center;
+}
+
+.container>h1 {
+    color: black;
+    padding-bottom: 0.5em;
+    font-size: 2.2em;
+    font-weight: 600;
+}
+
+.container>h1 span {
+    color: rgba(171, 196, 82, 1);
+}
+
+.cards {
+    display: flex;
+    gap: 2em;
+    margin-top: 4em;
+}
+
+.card {
+    flex: 1 1 30%;
+    background-color: rgba(247, 247, 247, 1);
+}
+
+.card .text {
+    padding: 2.29em 2em;
+    line-height: 2;
+}
+
+.card .text h2 {
+    color: black;
+    padding-bottom: 0.7em;
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0.7em 1.7em;
+    background-color: rgba(171, 196, 82, 1);
+    border-radius: 2em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2em;
+}
