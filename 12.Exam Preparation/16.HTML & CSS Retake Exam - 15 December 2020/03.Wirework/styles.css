@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px Helvetica, sans-serif;
+}
+
+li {
+    list-style: none outside;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.site-header {
+    padding: 2em;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header .container .brand {
+    display: flex;
+    align-items: baseline;
+    color: rgba(44, 56, 59, 1);
+}
+
+.site-header .container .brand h1 {
+    border-right: 1px solid rgba(178, 178, 178, 1);
+    padding-right: 0.5em;
+    margin-right: 0.5em;
+}
+
+.site-header .container .brand p span {
+    color: rgba(108, 108, 108, 1);
+}
+
+.site-header .container ul {
+    display: flex;
+    gap: 2px;
+}
+
+.site-header .container a {
+    padding: 1em;
+    background-color: rgba(236, 236, 236, 1);
+    color: rgba(33, 33, 33, 1);
+}
+
+.site-header .container li:first-child a {
+    background-color: rgba(226, 78, 42, 1);
+    color: white;
+}
+
+.site-main .site-banner {
+    height: 600px;
+    background-image: url(images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.site-main .site-red {
+    background-color: rgba(226, 78, 42, 1);
+    color: rgba(245, 199, 188, 1);
+}
+
+.site-red p {
+    max-width: 65%;
+    margin: 0 auto;
+    padding-top: 4.75em;
+    padding-bottom: 6.13em;
+    line-height: 1.5;
+}
+
+.site-red p span {
+    color: white;
+}
+
+.site-red p span:not(:first-of-type) {
+    text-decoration: underline;
+}
+
+.site-main .site-cards {
+    display: flex;
+    text-align: center;
+    background-color: rgba(56, 56, 56, 1);
+    padding: 8.13em 2em 10.13em 2em;
+    justify-content: center;
+    gap: 1em;
+}
+
+.site-main .site-cards .card {
+    flex: 0 0 20%;
+}
+
+.site-main .site-cards h3 {
+    color: white;
+    padding-top: 1rem;
+    font-weight: normal;
+    padding-bottom: 1.5rem;
+}
+
+.site-main .site-cards.with-icon h3 {
+    border-bottom: 2px solid rgba(76, 76, 76, 1);
+}
+
+.site-main .site-cards p {
+    color: rgba(108, 108, 108, 1);
+    padding-top: 1.5rem;
+}
+
+.site-main .site-cards i {
+    font-size: 5em;
+    color: white;
+    background-color: rgba(226, 78, 42, 1);
+    padding: 1rem;
+}
+
+.site-main .site-etiam-posure {
+    text-align: center;
+    padding-top: 7.5em;
+    padding-bottom: 6.8em;
+}
+
+.site-main .site-etiam-posure h1 {
+    color: rgba(85, 85, 85, 1);
+    padding-bottom: 0.2rem;
+    font-weight: 500;
+}
+
+.site-main .site-etiam-posure p {
+    color: rgba(162, 162, 162, 1);
+}
+
+.site-main .site-etiam-posure .button {
+    display: inline-block;
+    padding: 1em 2em;
+    color: white;
+    background-color: rgba(27, 151, 114, 1);
+    margin-top: 2em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+
+.site-main .site-cards.no-icon h3 {
+    font-size: 1.6em;
+}
+
+.site-footer {
+    background-color: rgba(27, 151, 114, 1);
+    padding-top: 7.5em;
+    padding-bottom: 8.75em;
+    text-align: center;
+    color: rgba(91, 180, 144, 1);
+}
+
+.site-footer span {
+    color: rgba(141, 203, 184, 1);
+}
