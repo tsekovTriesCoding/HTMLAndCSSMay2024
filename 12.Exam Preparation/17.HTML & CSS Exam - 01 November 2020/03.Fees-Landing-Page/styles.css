@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px Lato, sans-serif;
+    color: rgba(107, 107, 107, 1);
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(107, 107, 107, 1);
+}
+
+li {
+    list-style: none outside;
+}
+
+.site-header {
+    padding: 0 8.13em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+
+.site-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header .container .logo {
+    max-width: 180px;
+}
+
+.site-header .container ul {
+    display: flex;
+    gap: 1em;
+}
+
+.site-header .container ul li a {
+    font-weight: 600;
+}
+
+.site-taxes {
+    background-color: rgba(84, 84, 109, 1);
+    padding: 0 6em;
+    text-align: center;
+    height: 340px;
+    margin-bottom: 16em;
+}
+
+.site-taxes .media {
+    position: absolute;
+    top: 11em;
+    left: -4em;
+}
+
+.site-taxes>h1 {
+    color: white;
+    font-weight: 600;
+    padding-top: 2rem;
+    padding-bottom: 3.5rem;
+}
+
+.site-taxes .cards {
+    display: flex;
+    justify-content: center;
+    gap: 1.5em;
+    top: 17em;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 30%;
+    background-color: white;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+.card .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2.1rem;
+}
+
+.card h2 {
+    color: rgba(84, 84, 109, 1);
+}
+
+.card footer {
+    margin-top: auto;
+    padding: 2rem 0;
+    color: white;
+}
+
+.card footer h2 {
+    color: white;
+    font-weight: 400;
+    padding-bottom: 0.5rem;
+}
+
+.card.one h4 {
+    padding-top: 0.5rem;
+    font-weight: 400;
+}
+
+.card.one .button {
+    background-color: rgba(154, 93, 198, 1);
+    color: white;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 0.7em 1.5em;
+    border-radius: 2em;
+    font-weight: bold;
+}
+
+.card.one footer {
+    background: linear-gradient(90deg, rgb(2 154 60 / 85%) 18%, rgba(75, 215, 128, 1) 56%);
+}
+
+.card.two footer,
+.card.three footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card.two .text,
+.card.three .text {
+    display: flex;
+}
+
+.card.two .text h2,
+.card.three .text h2 {
+    padding-bottom: 1rem;
+}
+
+.card.two .text p:nth-child(3),
+.card.three .text p:nth-child(3) {
+    padding-top: 1rem
+}
+
+.card.two footer {
+    background: linear-gradient(90deg, rgba(76, 108, 136, 1) 16%, rgba(97, 153, 205, 1) 58%);
+}
+
+.card.three footer {
+    background: linear-gradient(90deg, rgba(76, 57, 167, 1) 9%, rgba(138, 123, 223, 1) 48%);
+}
+
+footer>.left {
+    border-right: 2px solid rgba(255, 255, 255, 1);
+    padding-right: 1.5em;
+    margin-right: 1.5em;
+}
+
+.site-checks {
+    padding: 0 12.7em;
+}
+
+.site-checks h1 {
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.site-checks table {
+    margin: 2em 0;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 0.5em;
+    overflow: hidden;
+}
+
+table tbody tr td,
+table tbody tr th {
+    padding: 0.8rem;
+}
+
+table tbody tr td:nth-child(2) {
+    padding-right: 9.6rem;
+}
+
+table tbody tr td:nth-child(3) {
+    padding-right: 3rem;
+}
+
+table tr th {
+    text-align: left;
+    padding-right: 6.36rem;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: rgba(230, 230, 230, 1);
+}
+
+table tbody tr:nth-child(even) {
+    background-color: rgba(248, 248, 248, 1);
+}
+
+td img {
+    max-width: 30px;
+}
+
+.site-financing {
+    padding: 0 6em;
+    margin-top: 6em;
+}
+
+.site-financing .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-financing .container .text {
+    flex: 0 1 60%;
+}
+
+.site-financing .container .media {
+    align-self: flex-end;
+    flex: 0 1 25%;
+}
+
+.site-financing h1 {
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.site-financing .text p:nth-child(2) {
+    padding-bottom: 1em;
+}
+
+.site-footer {
+    margin-top: 6em;
+    background-color: rgba(84, 84, 109, 1);
+    padding: 2em 0;
+    text-align: center;
+    color: rgba(144, 143, 171, 1);
+}
