@@ -1,0 +1,15 @@
+@media (max-width: 600px) {
+    .thumbnails {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .thumbnails > div {
+        width: 100%;
+    }
+
+    .thumbnails > div a img{
+        height: 220px;
+    }
+    
+}
