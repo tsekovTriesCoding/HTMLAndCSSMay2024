@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px Lato, sans-serif;
+    color: rgba(63, 77, 94, 1);
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+li {
+    list-style: none outside;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(71, 84, 100, 1);
+}
+
+.site-certificates {
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(images/hero-certificates.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.site-certificates header {
+    margin: 0 4em;
+    box-shadow: 0px 3px 13px 4px rgb(203, 203, 203, 1);
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em
+}
+
+.site-certificates header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1em 2em;
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}
+
+.container .logo {
+    max-width: 150px;
+}
+
+.site-certificates header .container ul {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.site-certificates header .container ul li:nth-child(3)::before {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: rgba(66, 171, 248, 1);
+    position: absolute;
+    top: 0;
+    right: 19em;
+}
+.site-certificates header .container ul li:last-child {
+    background-color: rgba(66, 171, 248, 1);
+    border-radius: 50%;
+    padding: 0.5em;
+    box-shadow: 3px 3px 11px 0px rgba(66, 171, 248, 1);
+}
+
+.site-certificates header .container ul li:last-child a {
+    color: white;
+}
+
+.site-certificates .web-development {
+    padding: 6.2em 10em;
+    padding-bottom: 2em;
+}
+
+.site-certificates .web-development>p {
+    margin-top: 2em;
+    font-style: italic;
+}
+
+.site-certificates .web-development .container {
+    display: flex;
+    gap: 5em;
+}
+
+.site-certificates .web-development .container .text {
+    flex: 1 1 50%;
+    background-color: rgba(41, 57, 75, 1);
+    color: white;
+    border-radius: 0.5em;
+    padding: 2em 3.2em 3.4em 1.4em;
+    line-height: 1.5;
+}
+
+.web-development .container .text h1 {
+    font-weight: 400;
+    padding-bottom: 1.5rem;
+}
+
+.web-development .container .text p:nth-child(2),
+.web-development .container .text p:nth-child(3) {
+    padding-bottom: 1.5rem;
+}
+
+.site-certificates .web-development .container .certificate-images {
+    display: flex;
+    align-items: flex-end;
+}
+
+.site-main {
+    padding: 0 7.5em;
+    padding-top: 8em;
+}
+
+.site-main .diploma h1 {
+    text-align: center;
+    font-weight: 400;
+    padding-bottom: 1em;
+}
+
+.site-main .diploma .text {
+    background-color: rgba(244, 245, 247, 1);
+    padding: 2em 1.6em 3.5em 1.6em;
+    margin-bottom: 1.5em;
+    line-height: 1.5;
+}
+
+.site-main .diploma .text p:first-child {
+    padding-bottom: 1.5em;
+}
+
+.site-main .explore {
+    background: linear-gradient(rgba(117, 126, 134, 0.7), rgba(117, 126, 134, 0.7)), url(images/sign-up-prompt-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3.6em 0em;
+    color: white;
+    border-radius: 0.5em;
+    overflow: hidden;
+    margin-top: 6em;
+}
+
+.site-main .explore .text {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 85ch;
+}
+
+.explore .text h1 {
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+
+.explore .text .buttons {
+    margin-top: 3.6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.explore .text .buttons .button {
+    border-radius: 0.5rem;
+    padding: 0.8em 2em;
+}
+
+.button.white {
+    background-color: white;
+    color: rgba(74, 174, 248, 1);
+}
+
+.vertical-line {
+    border-left: 1.5px solid white;
+    height: 30px;
+    width: 1px;
+}
+
+.button.transparent {
+    color: white;
+    border: 1px solid white;
+}
+
+.site-footer {
+    padding: 0 7.5em;
+    margin-top: 5em;
+}
+
+.site-footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1.5px solid rgba(100, 112, 125, 1);
+    padding: 3em 0;
+}
+
+.site-footer .container .logo-text {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+
+.site-footer .container .logo-text p {
+    color: rgba(212, 212, 212, 1);
+    font-size: 0.8em;
+}
+
+.site-footer .container .nav-and-socials {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.site-footer .container ul {
+    display: flex;
+    gap: 1em;
+    font-weight: 600;
+}
