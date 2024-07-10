@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px 'Open Sans', sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+li {
+    display: block;
+    list-style: none outside;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+.site {
+    max-width: 1350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.site-header {
+    padding: 3em 0;
+}
+
+.site-header nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 8em;
+}
+
+.site-header nav ul li a {
+    text-transform: uppercase;
+    color: rgba(157, 157, 157, 1);
+    font-weight: 600;
+}
+
+.site-wireless {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5em;
+}
+
+.site-wireless .text {
+    margin: auto 0;
+    max-width: 530px;
+    padding-left: 5em;
+}
+
+.site-wireless .text h1 {
+    text-transform: uppercase;
+    font-size: 3.4em;
+    font-weight: lighter;
+    padding-bottom: 2rem;
+}
+
+.site-wireless .text p {
+    line-height: 2;
+    padding-bottom: 2rem;
+}
+
+.site-wireless .button,
+.site-powerbeats .button {
+    background-color: rgba(255, 0, 0, 1);
+    color: white;
+    display: inline-block;
+    padding: 1em 3.5em;
+    border-radius: 2em;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.site-wireless .media {
+    position: relative;
+    left: 1em;
+}
+
+.site-wireless .media img {
+    max-height: 730px;
+}
+
+.site-powerbeats {
+    padding-left: 4em;
+    background-color: rgba(255, 251, 251, 1);
+    padding: 4em 0;
+}
+
+.site-powerbeats .container {
+    display: flex;
+    justify-content: center;
+    gap: 8em;
+}
+
+.site-powerbeats .container .text {
+    max-width: 440px;
+}
+
+.site-powerbeats .container .text header {
+    display: flex;
+    flex-direction: column;
+    max-width: 83%;
+    padding-bottom: 4em;
+}
+
+.site-powerbeats .container .text header p {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.site-powerbeats .container .text header p span {
+    font-weight: bold;
+}
+
+.site-powerbeats .container .text h1 {
+    font-size: 3.7em;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+
+.site-powerbeats .container .text footer {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-top: 4em;
+}
+
+.site-powerbeats .container .text footer p {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.site-powerbeats .media img {
+    max-height: 450px;
+}
+
+.site-free {
+    background-color: rgba(87, 87, 87, 1);
+    color: white;
+    padding: 4em 0;
+}
+
+.site-free .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.site-free .upper {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    margin-bottom: 4em;
+}
+
+.upper h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+.upper h1 {
+    font-weight: 100;
+}
+
+.upper h1 span {
+    font-weight: 600;
+}
+
+.site-free .container .button {
+    font-size: 2.2em;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    padding-bottom: 0.3em;
+    border-bottom: 1.5px solid white;
+}
+
+.site-give-life {
+    display: flex;
+}
+
+.site-give-life .media img {
+    height: 100%;
+}
+
+.site-give-life .beats {
+    display: flex;
+    align-items: center;
+    flex: 0 0 50%;
+    padding: 3em;
+    padding-left: 5em;
+    background-color: rgba(218, 218, 218, 1);
+}
+
+.site-give-life .beats .text {
+    color: rgba(51, 51, 51, 1);
+}
+
+.site-give-life .beats .text h1 {
+    font-size: 6em;
+    text-transform: uppercase;
+}
+
+.site-give-life .beats .text p {
+    font-size: 3em;
+    font-weight: 100;
+}
+
+.site-give-life .beats .text p span {
+    color: rgba(255, 0, 0, 1);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.site-footer {
+    padding: 2em;
+    text-align: center;
+    color: rgba(51, 51, 51, 1);
+}
